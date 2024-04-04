@@ -15,11 +15,11 @@
     }
    
 }
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     .qstn-answer{
         width: 80%;
     }
-}
+} */
 .faqs .faq-right{
     display: flex;
     justify-content: center;
@@ -35,6 +35,9 @@
     /* justify-content: center; */
     /* flex-direction: column; */
     align-items: center;
+}
+.faqs .faq-left .faq-header {
+    width: 100%;
 }
 .faqs .faq-left .faq-header .heading{
     font-family: var(--zen-dots-font-family);
@@ -73,7 +76,4 @@
 .question-row .question{
     font-family: var(--zen-dots-font-family);
     font-size: 14px;
-}
-.active{
-
 }

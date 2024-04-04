@@ -24,11 +24,14 @@ const Faqs = () => {
               Curious about 3dotlink? Explore our frequently asked questions to
               find answers
             </p>
+            <div style={{width:"100%"}}></div>
             <Box sx={{ width: "100%" }}>
               <Tabs
                 value={value}
                 onChange={handleChange}
                 aria-label="wrapped label tabs example"
+                variant="scrollable"
+                scrollButtons="auto" 
               >
                 <Tab value="one" label="General" wrapped />
                 <Tab value="two" label="Pre ICO" />
