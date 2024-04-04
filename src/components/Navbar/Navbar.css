@@ -1,0 +1,32 @@
+.navbar{
+    /* background-color: #1A010A !important; */
+    /* padding: 10px 90px; */
+    font-family: var(--inter-font-family);
+    padding: -10px;
+    /* border-bottom: 1px solid #FD1640; */
+
+  }
+  /* @media screen and (max-width:768px) {
+   .navbar{
+    padding: 10px 10px !important;
+   } 
+  } */
+  .navbar .navbar-toggler{
+    color: #FFFFFF !important;
+    background-color: #FFFFFF;
+  }
+ .image{
+    width: 70px !important;
+  }
+  .navbar .navbar-nav{
+    gap: 20px;
+  }
+  .navbar .navbar-nav .nav-item{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .active{
+    color: #FD1640 !important;
+  }
+  

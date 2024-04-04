@@ -1,0 +1,21 @@
+#nfts{
+    background-color:#0C000D;
+    padding: 10px 90px;
+    color: #FFFFFF;
+    /* height: fit-content; */
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px) {
+    .nfts{
+     padding: 10px 20px !important;
+    } 
+    .nfts .nfts-heading{
+        font-size: 26px;
+    }
+   }
+.nfts .nfts-heading{
+    font-family: var(--zen-dots-font-family);
+}
+.nfts .nfts-text{
+    font-family: var(--inter-font-family);
+}

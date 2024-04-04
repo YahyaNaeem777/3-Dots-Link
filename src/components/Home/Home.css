@@ -1,0 +1,84 @@
+#home{
+    background-image:linear-gradient(to right,#000000,#00000000) , url('./../../Assets/Images/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 0px 90px;
+    border-bottom: 15px solid #ff00006d;
+
+}
+.home .row{
+    padding-top: 70px;
+
+}
+.home .home-left{
+    padding-top: 50px;
+}
+
+.home .home-heading{
+    font-family: var(--zen-dots-font-family);
+    color: #FFFFFF;
+    font-size: 56px;
+}
+.home .home-left .trade-image{
+    width: 530px;
+}
+.home .home-left .home-subheading{
+    font-size: 65px;
+    font-family: var(--zen-dots-font-family);
+    color: #FFFFFF;
+    line-height: 107px;
+}
+.home .home-left .home-subheading span{
+    color: #FD1640 !important;
+}
+.home .home-left .home-text{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+}
+@media screen and (min-width:991px) {
+    .home .home-left .home-text{
+        padding-right: 120px;
+    }
+}
+@media screen and (max-width:768px) {
+    #home{
+        padding: 10px 20px !important;
+    }
+}
+@media screen and (max-width:1100px){
+    .home .home-left .home-subheading{
+        font-size: 40px;
+      line-height: 80px;
+    }
+    .home .home-left .trade-image{
+        width: 350px;
+    }
+    .home .home-heading{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:540px) {
+    .home .home-right .home-img img{
+        height:300px !important;
+    }
+    .home .home-left .home-subheading{
+        font-size: 28px;
+      line-height:50px;
+    }
+    .home .home-left .trade-image{
+        width: 250px;
+    }
+    .home .home-heading{
+        font-size: 35px;
+    }
+}
+.home .home-right .home-img{
+    position: relative;
+}
+.home .home-right .home-img img{
+    height: 537px;
+}

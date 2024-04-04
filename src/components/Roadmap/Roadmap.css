@@ -1,0 +1,206 @@
+.roadmap{
+    background-color: #0C000D;
+}
+.roadmap .roadmap-heading{
+    font-family: var(--zen-dots-font-family);
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.roadmap .roadmap-heading>span{
+    color: #fd1640;
+}
+.roadmap .roadmap-text{
+    font-family: var(--inter-font-family);
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.roadmap .roadmap-list{
+    padding: 10px 100px;
+    background-color: #0c000d;
+    background-image: url('./../../Assets/Images/RoadmapImages/BlueSmoke.png');
+    position: relative;
+    width: 100%;
+    background-size: 22% auto; 
+    background-position: calc(100% - 75px) ;
+    background-repeat: no-repeat;
+}
+.roadmap .roadmap-list .list-number-img{
+    position: absolute;
+    left: 60px;
+    width: 20px;
+}
+.roadmap .roadmap-list .list-line{
+    position: absolute;
+    left: 67px;
+    top: 26px;
+    /* width: 20px; */
+}
+.roadmap .start .list-number-img{
+    position: absolute;
+    left: 40px;
+    left: 60px;
+    width: 20px;
+}
+.roadmap .start .list-line{
+    position: absolute;
+    left: 67px;
+    top: 26px;
+    /* width: 20px; */
+}
+@media screen and (max-width:991px) {
+    .roadmap .roadmap-list .phase-content .list-img{
+        height: 150px !important;
+    }
+    .roadmap .roadmap-list{
+        padding: 10px 50px;
+        background-position: calc(100% - 50px)
+    }
+    .roadmap .roadmap-list .list-number-img{
+        /* position: absolute; */
+        left: 30px;
+        /* width: 20px; */
+    }
+    .roadmap .roadmap-list .list-line{
+        /* position: absolute; */
+        left: 37px;
+        /* top: 26px; */
+        /* width: 20px; */
+    }
+    .roadmap .start .list-number-img{
+        position: absolute;
+        /* left: 40px; */
+        left: 30px;
+        /* width: 20px; */
+    }
+    .roadmap .start .list-line{
+        /* position: absolute; */
+        left: 37px;
+        /* top: 26px; */
+        /* width: 20px; */
+    }
+}
+@media screen and (max-width:768px) {
+    .roadmap .roadmap-list{
+        padding: 10px 20px;
+        background-position: calc(100% - 70px)
+
+    }
+    .roadmap .roadmap-list .list-number-img{
+        /* position: absolute; */
+        left: 10px;
+        /* width: 20px; */
+    }
+    .roadmap .roadmap-list .list-line{
+        /* position: absolute; */
+        left: 17px;
+        /* top: 26px; */
+        /* width: 20px; */
+    }
+    .roadmap .start .list-number-img{
+        position: absolute;
+        /* left: 40px; */
+        left: 10px;
+        /* width: 20px; */
+    }
+    .roadmap .start .list-line{
+        /* position: absolute; */
+        left: 17px;
+        /* top: 26px; */
+        /* width: 20px; */
+    }
+}
+.roadmap .roadmap-list .phase-title{
+    width: 35%;
+    background-color: #FD16404D;
+    color: #FD1640;
+    padding: 5px 13px;
+    margin-bottom: 1.5rem;
+    font-size: 17px;
+    font-family: var(--zen-dots-font-family);
+}
+
+.roadmap .roadmap-list .phase-content{
+    
+    background-color: #FD1640;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.roadmap .roadmap-list .phase-content ul{
+    padding-left: 70px !important;
+}
+.roadmap .roadmap-list .phase-content ul li{
+
+line-height: 20px !important;
+font-size: 16px;
+font-family: var(--inter-font-family);
+
+}
+.roadmap .roadmap-list .phase-content .list-img{
+    height: 200px;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.roadmap .start{
+    padding: 10px 100px;
+    background-color: #0c000d;
+    background-image: url('./../../Assets/Images/RoadmapImages/BlueSmoke.png');
+    position: relative;
+    width: 100%;
+    background-size: 22% auto; 
+    background-position: 90px -40px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:991px) {
+    .roadmap .start .phase-content .list-img{
+        height: 150px !important;
+    }
+    .roadmap .start{
+        padding: 10px 50px;
+        background-position: 50px -10px;
+    }
+}
+@media screen and (max-width:768px) {
+    .roadmap .start{
+        padding: 10px 20px;
+        background-position: 80px 20px; 
+    }
+}
+.roadmap .start .phase-title{
+    width: 35%;
+    background-color: #FD16404D;
+    color: #FD1640;
+    padding: 5px 13px;
+    margin-bottom: 1.5rem;
+    font-size: 17px;
+
+    font-family: var(--zen-dots-font-family);
+}
+.roadmap .start .phase-content-parent .phase-content{
+    background-color: #FD1640;
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+}
+.roadmap .start .phase-content-parent .phase-content ul{
+    margin-left: 26%;
+}
+.roadmap .start .phase-content-parent .phase-content ul li{
+line-height: 18px !important;
+font-size: 14px;
+font-family: var(--inter-font-family);
+}
+.roadmap .start .phase-title{
+    margin-left: 30%;
+}
+.roadmap .start .list-img{
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+

@@ -1,0 +1,68 @@
+#faqs{
+    background-color: black;
+    background-image: url('./../../Assets/Images/faqs.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    padding: 10px 90px;
+    padding-top: 8rem;
+}
+
+@media screen and (max-width:768px) {
+    #faqs{
+        padding: 10px 20px;
+    }
+}
+
+.faqs .faq-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqs .faq-right img{
+    /* height: 90vh; */
+    width: 80%;
+}
+
+.faqs .faq-left{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+.faqs .faq-left .faq-header .heading{
+    font-family: var(--zen-dots-font-family);
+}
+.faqs .faq-left .faq-header .text{
+    font-family: var(--inter-font-family);
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected, .css-zx9imm-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: brown !important;
+}
+.MuiTabs-indicator{
+    background-color:brown !important   
+}
+[type=button]:not(:disabled){
+    color: white;
+    font-family: var(--zen-dots-font-family);
+    font-size: 10px;
+    padding: 0px;
+}
+@media screen and (min-width:991px) {
+}
+
+.qstn-answer {
+    background-color: #FD164080;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+.question-row{
+    display: flex;
+    justify-content: space-between;
+}
+.question-row .question{
+    font-family: var(--zen-dots-font-family);
+    font-size: 14px;
+}
