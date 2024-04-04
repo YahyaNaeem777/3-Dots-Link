@@ -87,15 +87,15 @@ export const qstnAns=[
     },
     {
         id:2,
-        qstn:"LegaHow do I create NFTs on 3dotlink?",
+        qstn:"What kind of art does 3dotlink support?",
         ans:"Artists and creators can use our AI-integrated platform to generate NFTs by providing specific inputs, such as the desired features and elements for their digital artwork."
     },{
         id:3,
-        qstn:"LegaHow do I create NFTs on 3dotlink?",
+        qstn:"How are digital artworks verified for authenticity?",
         ans:"Artists and creators can use our AI-integrated platform to generate NFTs by providing specific inputs, such as the desired features and elements for their digital artwork."
     },{
         id:4,
-        qstn:"LegaHow do I create NFTs on 3dotlink?",
+        qstn:"Can artists access and manage their collections on 3dotlink?",
         ans:"Artists and creators can use our AI-integrated platform to generate NFTs by providing specific inputs, such as the desired features and elements for their digital artwork."
     },
 ]
