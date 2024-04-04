@@ -27,7 +27,7 @@ const Navbar = ({ scrollToSection }) => {
             aria-label="Toggle navigation"
             onClick={()=>setOpen(!open)}
           >
-            <span className="navbar-toggler-icon"></span>
+            <i className="fa-solid fa-bars"></i>
           </button>
           <div className={`${open?"":"collapse"} navbar-collapse`} id="navbarNav">
             <ul className="navbar-nav mx-auto">
@@ -36,6 +36,7 @@ const Navbar = ({ scrollToSection }) => {
                 scrollToSection('home')
                 setMenu("Home");
                 setIsMobile(!isMobile);
+                setOpen(!open)
               }}>
                  
                   Home
@@ -46,6 +47,7 @@ const Navbar = ({ scrollToSection }) => {
                 scrollToSection('about')
                 setMenu("About");
                 setIsMobile(!isMobile);
+                setOpen(!open)
               }}>
             
                   About
@@ -56,6 +58,7 @@ const Navbar = ({ scrollToSection }) => {
             scrollToSection('artist')
             setMenu("Artist");
             setIsMobile(!isMobile);
+            setOpen(!open)
           }}>
                 
                   Artist
@@ -65,6 +68,7 @@ const Navbar = ({ scrollToSection }) => {
                 scrollToSection('home')
                 setMenu("Stacking");
                 setIsMobile(!isMobile);
+                setOpen(!open)
               }}>
                
                 Stacking
@@ -73,6 +77,7 @@ const Navbar = ({ scrollToSection }) => {
             scrollToSection('roadmap')
             setMenu("Roadmap");
             setIsMobile(!isMobile);
+            setOpen(!open)
           }}>
                 
                 Roadmap
@@ -81,6 +86,7 @@ const Navbar = ({ scrollToSection }) => {
             scrollToSection('home')
             setMenu("Team");
             setIsMobile(!isMobile);
+            setOpen(!open)
           }}>
                
                 Team
@@ -89,6 +95,7 @@ const Navbar = ({ scrollToSection }) => {
             scrollToSection('home')
             setMenu("Marketplace");
             setIsMobile(!isMobile);
+            setOpen(!open)
           }}>
                 
                 Marketplace                

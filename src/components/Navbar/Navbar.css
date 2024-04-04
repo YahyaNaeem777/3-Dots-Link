@@ -12,8 +12,13 @@
    } 
   } */
   .navbar .navbar-toggler{
-    color: #FFFFFF !important;
-    background-color: #FFFFFF;
+    /* color: #FFFFFF !important; */
+    background-color: #FD1640;
+    border: none !important;
+  }
+  .navbar .navbar-toggler i{
+    padding: 5px;
+    font-size: 20px;
   }
  .image{
     width: 70px !important;
@@ -30,3 +35,8 @@
     color: #FD1640 !important;
   }
   
+  @media screen and (max-width:991px) {
+    .navbar-collapse{
+      text-align: center;
+    }
+  }
