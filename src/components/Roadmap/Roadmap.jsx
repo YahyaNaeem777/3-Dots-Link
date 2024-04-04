@@ -20,7 +20,7 @@ const Roadmap = () => {
           {item.type === "between" ? (
             <>           
             <div className="roadmap-list mb-5" key={index}>
-            <img src={group24} alt="" className="list-number-img"/> <img src={line} alt="" className="list-line"/> <div className="phase-title">{item.title}</div>
+            <img src={group24} alt="" className="list-number-img" /> <img src={line} alt="" className="list-line"/> <div className="phase-title">{item.title}</div>
               <div className="phase-content-parent d-flex" style={{position:"relative"}}>
                 <div className="phase-content">
                   <ul className="text-white">

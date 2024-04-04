@@ -87,26 +87,41 @@
     }
     .roadmap .roadmap-list .list-number-img{
         /* position: absolute; */
-        left: 10px;
+        left: 4px;
         /* width: 20px; */
     }
     .roadmap .roadmap-list .list-line{
         /* position: absolute; */
-        left: 17px;
+        left: 13px;
         /* top: 26px; */
         /* width: 20px; */
     }
     .roadmap .start .list-number-img{
         position: absolute;
         /* left: 40px; */
-        left: 10px;
+        left: 6px;
         /* width: 20px; */
     }
     .roadmap .start .list-line{
         /* position: absolute; */
-        left: 17px;
+        left: 13px;
         /* top: 26px; */
         /* width: 20px; */
+    }
+    .roadmap .roadmap-list .phase-title{
+        width: 50% !important;
+        margin-left: 10px;
+    }
+    .roadmap .start .phase-title{
+        width: 50% !important;
+        margin-left: 10px;
+
+    }
+    .roadmap .roadmap-list .phase-content{
+        margin-left: 10px ;
+    }
+    .roadmap .start .phase-content{
+        margin-left: 10px ;
     }
 }
 .roadmap .roadmap-list .phase-title{
@@ -150,10 +165,15 @@ font-family: var(--inter-font-family);
     background-image: url('./../../Assets/Images/RoadmapImages/BlueSmoke.png');
     position: relative;
     width: 100%;
-    background-size: 22% auto; 
+    background-size: 28% auto; 
     background-position: 90px -40px;
     background-repeat: no-repeat;
 }
+/* @media only screen and (max-width: 768px) {
+    .roadmap .start {
+      background-position: 90px -70px; 
+    }
+  } */
 @media screen and (max-width:991px) {
     .roadmap .start .phase-content .list-img{
         height: 150px !important;

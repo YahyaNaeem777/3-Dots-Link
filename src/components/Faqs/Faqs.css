@@ -13,8 +13,13 @@
     #faqs{
         padding: 10px 20px;
     }
+   
 }
-
+@media screen and (max-width:500px) {
+    .qstn-answer{
+        width: 80%;
+    }
+}
 .faqs .faq-right{
     display: flex;
     justify-content: center;
