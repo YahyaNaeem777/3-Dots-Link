@@ -9,11 +9,10 @@ const QstnAnswer = ({question,answer}) => {
           <>
                     <div className="qstn-answer text-white">
                     {/* <div className="qstn-asnw"> */}
-                      <div className="question-row">
+                      <div className={`question-row ${show ? 'open' : ''}`}>
                         <p className="question">{question}</p>
                         <p
                           className="icon"
-                         
                           onClick={() => {
                             setShow(!show);
                             console.log(show)

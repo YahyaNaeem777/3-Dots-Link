@@ -55,7 +55,12 @@
     border-radius: 3px;
     padding: 12px;
 }
-
+.qstn-answer .icon img{
+    transition: transform 0.3s ease
+}
+.qstn-answer .question-row.open .icon>img{
+    transform: rotateX(180deg);
+}
 .question-row{
     display: flex;
     justify-content: space-between;
