@@ -4,6 +4,7 @@
     color: #FFFFFF;
     /* height: fit-content; */
     box-sizing: border-box;
+    max-height: 160vh;
 }
 @media screen and (max-width:768px) {
     .nfts{
