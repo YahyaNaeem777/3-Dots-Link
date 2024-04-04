@@ -12,7 +12,7 @@ const Roadmap = () => {
       <h1 className="text-center roadmap-heading">
         Road<span>map</span>
       </h1>
-      <p className="roadmap-text text-center">
+      <p className="roadmap-text text-center pb-5">
         Guiding the fusion of culture, AI, and Web3 innovation
       </p>
       {roadMap.map((item, index) => (

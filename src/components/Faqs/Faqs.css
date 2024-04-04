@@ -38,7 +38,7 @@
     font-family: var(--inter-font-family);
 }
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected, .css-zx9imm-MuiButtonBase-root-MuiTab-root.Mui-selected{
-    color: brown !important;
+    color: white !important;
 }
 .MuiTabs-indicator{
     background-color:brown !important   
@@ -65,4 +65,7 @@
 .question-row .question{
     font-family: var(--zen-dots-font-family);
     font-size: 14px;
+}
+.active{
+
 }
