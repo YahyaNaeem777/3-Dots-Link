@@ -6,6 +6,11 @@
     box-sizing: border-box;
     max-height: 160vh;
 }
+@media screen and (min-width:991px) {
+    #nfts{
+        max-height: 180vh !important;
+    }
+}
 @media screen and (max-width:768px) {
     .nfts{
      padding: 10px 20px !important;
